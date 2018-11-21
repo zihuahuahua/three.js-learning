@@ -20,9 +20,9 @@ export default {
   data() {
     return {
       workList: [
-        { link: "", img: "" },
+        { link: "/first", img: "" },
         { link: "/mini-city", img: "static/img/threejs-example-mini-city.png" },
-        { link: "", img: "" },
+        { link: "/clock", img: "static/img/threejs-clock.png" },
         { link: "/jump", img: "static/img/threejs-example-jump.png" },
         { link: "/test", img: "" },
         { link: "/mall", img: "static/img/threejs-example-mall.png" }

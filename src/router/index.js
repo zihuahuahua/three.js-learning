@@ -30,6 +30,16 @@ export default new Router({
             path: '/test',
             name: 'test',
             component: (resolve) => require(['@/pages/test'], resolve)
+        },
+        {
+            path: '/first',
+            name: 'first',
+            component: (resolve) => require(['@/pages/first'], resolve)
+        },
+        {
+            path: '/clock',
+            name: 'clock',
+            component: (resolve) => require(['@/pages/clock_canvas'], resolve)
         }
     ]
 })
