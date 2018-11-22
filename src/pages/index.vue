@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       workList: [
-        { link: "/first", img: "" },
+        { link: "/first", img: "static/img/first.png" },
         { link: "/clock", img: "static/img/threejs-clock.png" },
         { link: "/test", img: "" },
         { link: "/jump", img: "static/img/threejs-example-jump.png" },
