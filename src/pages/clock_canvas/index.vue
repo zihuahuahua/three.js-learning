@@ -3,7 +3,6 @@
 </template>
 
 <script>
-// import { clock } from './js/clock.js'
 var canvas;
 export default {
   data(){
@@ -41,7 +40,7 @@ export default {
 			this.mesh = new THREE.Mesh(this.geometry, this.material);
 			this.scene.add(this.mesh);
 
-			//
+			// 监听浏览器窗口大小改变事件
 			window.addEventListener('resize', this.onWindowResize, false);
 		},
 		 onWindowResize() { // 窗口自适应

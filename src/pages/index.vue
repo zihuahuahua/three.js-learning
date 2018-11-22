@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="info">
 			<img src="static/img/logo.png" alt="Three.js Examples" class="logo">
-			<a href="https://github.com/luosijie/threejs-examples" target="_blank" class="title">Three.js Example</a>
-			<!-- <a href="https://luosijie.github.io/" target="_blank" class="author">Jesse Luo</a> -->
+			<a href="https://github.com/zihuahuahua/three.js-learning" target="_blank" class="title">Three.js Example</a>
+      <p>紫花花花©荣誉出品</p>
 		</div>
 		<div class="works">
 			<div v-for="(item, index) in workList" :key="index">
@@ -21,11 +21,11 @@ export default {
     return {
       workList: [
         { link: "/first", img: "" },
-        { link: "/mini-city", img: "static/img/threejs-example-mini-city.png" },
         { link: "/clock", img: "static/img/threejs-clock.png" },
-        { link: "/jump", img: "static/img/threejs-example-jump.png" },
         { link: "/test", img: "" },
-        { link: "/mall", img: "static/img/threejs-example-mall.png" }
+        { link: "/jump", img: "static/img/threejs-example-jump.png" },
+        { link: "/mall", img: "static/img/threejs-example-mall.png" },
+        { link: "/mini-city", img: "static/img/threejs-example-mini-city.png" }
       ]
     };
   }
