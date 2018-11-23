@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="info">
 			<img src="static/img/logo.png" alt="Three.js Examples" class="logo">
-			<a href="https://github.com/zihuahuahua/three.js-learning" target="_blank" class="title">Three.js Example</a>
-      <p>紫花花花©荣誉出品</p>
+			<a href="https://github.com/zihuahuahua/three.js-learning" target="_blank" class="title">Three.js == Demo</a>
+      <p>紫花花花©荣誉出品🙈</p>
 		</div>
 		<div class="works">
 			<div v-for="(item, index) in workList" :key="index">
@@ -22,7 +22,7 @@ export default {
       workList: [
         { link: "/first", img: "static/img/first.png" },
         { link: "/clock", img: "static/img/threejs-clock.png" },
-        { link: "/test", img: "" },
+        { link: "/test", img: "static/img/test.png" },
         { link: "/jump", img: "static/img/threejs-example-jump.png" },
         { link: "/mall", img: "static/img/threejs-example-mall.png" },
         { link: "/mini-city", img: "static/img/threejs-example-mini-city.png" }
@@ -34,7 +34,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .container {
-  width: 100%; // height: 100%;
+  width: 100%; 
+  // height: 100%;
   background: #ffffff;
   padding: 0;
   margin: 0;
